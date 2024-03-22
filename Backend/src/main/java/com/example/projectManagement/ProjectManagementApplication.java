@@ -1,13 +1,13 @@
-package com.example.bootApp;
+package com.example.projectManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BootAppApplication {
+public class ProjectManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BootAppApplication.class, args);
+		SpringApplication.run(ProjectManagementApplication.class, args);
 	}
 
 }
