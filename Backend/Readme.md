@@ -1,3 +1,4 @@
+```bash
 src/
 └── main/
     ├── java/
@@ -32,3 +33,5 @@ src/
         │   └── another-page.html
         ├── application.properties
         └── application.yml  # if you're using YAML configuration
+
+```
