@@ -7,9 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProjectManagementApplication {
 
 	public static void main(String[] args) {
-	FileInputStream serviceAccount = new FileInputStream("");
-	
-    @SuppressWarnings("deprecation")
+		FileInputStream serviceAccount = new FileInputStream("Backend\\java-project-638c1-firebase-adminsdk-6oqtc-c450021a14.json");
+    	@SuppressWarnings("deprecation")
     FirebaseOptions options = new FirebaseOptions.Builder()
             .setCredentials(GoogleCredentials.fromStream(serviceAccount))
             .build();
