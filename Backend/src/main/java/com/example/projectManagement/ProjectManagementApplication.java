@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProjectManagementApplication {
 
 	public static void main(String[] args) {
-	FileInputStream serviceAccount = new FileInputStream("java-project-638c1-firebase-adminsdk-6oqtc-34ac5fc713.json");
+	FileInputStream serviceAccount = new FileInputStream("");
 	
     @SuppressWarnings("deprecation")
     FirebaseOptions options = new FirebaseOptions.Builder()
