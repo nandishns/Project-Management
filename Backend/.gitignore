@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### ENV ###
+.env
+
+### Admin File ###
+./java-project-638c1-firebase-adminsdk-6oqtc-c450021a14.json
